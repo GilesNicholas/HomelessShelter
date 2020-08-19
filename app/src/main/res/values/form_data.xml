@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="age_array">
+        <item>Select Age</item>
+        <item>Under 18</item>
+        <item>19 to 30</item>
+        <item>31 to 45</item>
+        <item>46 to 60</item>
+        <item>Over 60</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Prefer not to say</item>
+    </string-array>
+
+    <string-array name="num_of_people">
+        <item>Select number of homeless people</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6+</item>
+    </string-array>
+
+</resources>

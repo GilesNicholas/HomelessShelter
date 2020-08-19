@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Spinner
+            android:id="@+id/gender"
+            android:background="#d3dadf"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent">
+    </Spinner>
+
+    <Spinner
+            android:id="@+id/age"
+            android:background="#c5c8c9"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent">
+    </Spinner>
+
+    <Spinner android:id="@+id/num_of_people"
+            android:background="#d3dadf"
+            android:layout_height="50dp"
+             android:layout_width="fill_parent">
+    </Spinner>
+
+    <Button android:text="@string/submit"
+            android:onClick="onSubmit"
+            android:background="#269de5"
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="75dp"/>
+
+    <Button android:text="@string/clear"
+        android:onClick="onClear"
+        android:background="#fb0909"
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="75dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:id="@+id/textview"
+        android:textSize="20sp"
+        android:layout_height="match_parent" />
+</LinearLayout>
